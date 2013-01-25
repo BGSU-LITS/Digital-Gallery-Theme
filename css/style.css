@@ -645,7 +645,8 @@ table {
 body {
   font-size: 16px;
   color: #333;
-  line-height: 1.5; }
+  line-height: 1.5;
+  border-top: 6px solid #ff7300; }
 
 li {
   margin: 0.25em 0; }
@@ -670,12 +671,6 @@ a:visited {
 
 a:hover {
   color: #4f2c1d; }
-
-/* Orange bar at top
-   ==================== */
-.top-bar {
-  border-top: 5px solid #ff7300;
-  height: 5px; }
 
 /*  Navigation
     ============= */
@@ -712,6 +707,13 @@ a:hover {
     #site-navigation .navigation .current > a {
       color: #ff7300;
       background-color: rgba(0, 0, 0, 0.1); }
+
+/** Search Box
+    ============== */
+#search-box {
+  margin-bottom: 0.75em; }
+  #search-box .button {
+    display: inline; }
 
 /*  Header
     ============== */

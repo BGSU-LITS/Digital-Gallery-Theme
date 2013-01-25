@@ -31,8 +31,16 @@
 	<?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
 
 	<section class="container">
+		<div class="row header-blocks hide-mobile">
+			<div class="home-slice orange">&nbsp;</div>
+			<div class="home-slice orange">&nbsp;</div>
+			<div class="home-slice orange">&nbsp;</div>
+			<div class="home-slice orange">&nbsp;</div>
+			<div class="home-slice orange">&nbsp;</div>
+		</div>
+
 		<header class="row">
-			<div class="span12">
+			<div class="span7">
 				<div class="mobile right mobile-nav-btn">
 					<a href="#">Navigation</a>
 				</div>
@@ -41,16 +49,13 @@
 				<h2 class="tagline">Digital Collections of the University Libraries</h2>
 			</div>
 
-			<div class="span12" id="main-nav">
+			<div class="span5" id="main-nav">
 				<div id="search-box">
 					<form action="<?php echo url('items/browse'); ?>" method="get">
 						<label for="simple-search" class="hidden">Search</label>
 						<input type="text" name="search" id="simple-search" placeholder="Search" value="<?php echo input_get_value('search'); ?>" class="input long shadow" />
-						<input type="submit" value="Go!" class="button hide-mobile" />
+						<input type="submit" value="Go!" class="hide-mobile button" />
 					</form>
-					<div class="push-down text-right gray-link hide-mobile">
-						<a href="<?php echo url('items/search'); ?>">Advanced Search</a>
-					</div>
 				</div>
 				<nav id="site-navigation">
 					<?php echo public_nav_main(); ?>

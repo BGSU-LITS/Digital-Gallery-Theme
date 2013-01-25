@@ -6,6 +6,7 @@ body {
 	font-size: 16px;
 	color: #333;
 	line-height: 1.5;
+	border-top: 6px solid $colorPrimary;
 }
 
 li {
@@ -37,14 +38,6 @@ a:visited {
 
 a:hover {
 	color: $colorSecondary;
-}
-
-/* Orange bar at top
-   ==================== */
-
-.top-bar {
-	border-top: 5px solid $colorPrimary;
-	height: 5px;
 }
 
 /*  Navigation
@@ -99,6 +92,17 @@ a:hover {
 		}
 	}
 }
+
+/** Search Box
+    ============== */
+#search-box {
+	margin-bottom: 0.75em;
+
+	.button {
+		display: inline;
+	}
+}
+
 
 /*  Header
     ============== */
