@@ -883,7 +883,12 @@ footer {
 
   #search-box {
     padding: 0.5em;
-    background-color: #ff7300; }
+    background-color: #ff7300;
+    margin-bottom: 0; }
+    #search-box .input {
+      width: 75%; }
+    #search-box .button {
+      width: 20%; }
 
   #simple-search {
     -webkit-box-sizing: border-box;

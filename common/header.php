@@ -54,7 +54,7 @@
 					<form action="<?php echo url('items/browse'); ?>" method="get">
 						<label for="simple-search" class="hidden">Search</label>
 						<input type="text" name="search" id="simple-search" placeholder="Search" value="<?php echo input_get_value('search'); ?>" class="input long shadow" />
-						<input type="submit" value="Go!" class="hide-mobile button" />
+						<input type="submit" value="Go!" class="button" />
 					</form>
 				</div>
 				<nav id="site-navigation">

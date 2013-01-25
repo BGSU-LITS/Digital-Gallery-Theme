@@ -347,6 +347,15 @@ footer {
 	#search-box {
 		padding: 0.5em;
 		background-color: $colorPrimary;
+		margin-bottom: 0;
+
+		.input {
+			width: 75%;
+		}
+
+		.button {
+			width: 20%;
+		}
 	}
 
 	#simple-search {
