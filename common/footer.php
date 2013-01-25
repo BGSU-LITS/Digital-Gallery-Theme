@@ -1,3 +1,5 @@
+		</div> <!-- end of .content -->
+
 		<footer>
 			<div class="row">
 				<nav class="footer-nav">
@@ -71,6 +73,8 @@
 		</footer>
 
 	</section>
+
+<script>/* Away we go! */ digitalGallery.init();</script>
 
 </body>
 </html>
