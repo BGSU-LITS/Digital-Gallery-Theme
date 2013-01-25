@@ -25,7 +25,11 @@
 
 
 	<!-- JS -->
-	<?php echo js_tag('digitalGallery.min'); ?>
+	<?php
+		queue_js_file('digitalGallery.min');
+		echo head_js(false);
+	?>
+
 </head>
 <body>
 	<?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
